@@ -1,4 +1,4 @@
-package com.zzc.gulimail.gulimailware;
+package com.zzc.gulimail.ware;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

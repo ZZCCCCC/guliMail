@@ -1,0 +1,19 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: product_route
+          uri: lb://gulimail-product
+          predicates:
+            - Path=/api/product/**
+          filters:
+            - RewritePath=/api/(?<segment>.*), /$\{segment}
+        - id: admin_route
+          uri: lb://renren-fast
+          predicates:
+            - Path=/api/**
+          filters:
+            # 路径重写
+            - RewritePath=/api/(?<segment>.*), /renren-fast/$\{segment}
+
+## 前端发送请求都带 /api

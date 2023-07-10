@@ -16,5 +16,8 @@
         <module>gulimailorder</module>
         <module>gulimailproduct</module>
         <module>gulimailware</module>
+        <module>renren-fast</module>
+        <module>renren-generator</module>
+        <module>gulimailcommon</module>
     </modules>
 </project>

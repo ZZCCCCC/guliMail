@@ -1,13 +1,13 @@
-package com.zzc.gulimail.gulimailcoupon;
+package com.zzc.gulimail.order;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class GulimailcouponApplication {
+public class GulimailorderApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(GulimailcouponApplication.class, args);
+        SpringApplication.run(GulimailorderApplication.class, args);
     }
 
 }
