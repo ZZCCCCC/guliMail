@@ -9,6 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
+
 @SpringBootTest(classes = GulimailproductApplication.class)
 @RunWith(SpringRunner.class)
 class GulimailproductApplicationTests {
@@ -24,4 +25,11 @@ class GulimailproductApplicationTests {
         brandService.save(brandEntity);
     }
 
+
+    @Test
+    void test(){
+
+
+
+    }
 }
